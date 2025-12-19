@@ -1,0 +1,39 @@
+python
+java
+c++
+mysql
+mongodb
+postgresql
+fastapi
+django
+flask
+docker
+kubernetes
+aws
+azure
+git
+linux
+machine learning
+deep learning
+nlp
+data science
+pandas
+numpy
+scikit-learn
+tensorflow
+pytorch
+python
+python 3
+java
+c++
+cpp
+mongodb
+mongo db
+postgresql
+postgres
+fastapi
+fast api
+git
+github
+aws
+docker
