@@ -1,84 +1,89 @@
-# 🧠 AI Resume Screener
+🧠 AI Resume Screener (Python)
+An AI-powered resume screening tool built using Python that extracts technical skills from resumes (PDF/DOCX) to help automate the initial resume shortlisting process.
+This project demonstrates text extraction, cleaning, and keyword-based skill matching, making it suitable for ATS-style screening systems.
 
-An AI-powered resume screening system that parses resumes, cleans text, and extracts relevant skills to help recruiters shortlist candidates efficiently.
+🚀 Features:
+📄 Supports PDF resumes
+🧹 Cleans raw resume text automatically
+🧠 Extracts technical skills like:
+Python, Java, Git, GitHub
+Django, Flask
+MySQL, MongoDB
+AWS, etc.
 
----
+🧪 Includes a sample resume for demo/testing
+⚙️ Easy to extend with NLP or ML models
 
-## 🚀 Features
-- 📄 Resume parsing from PDF/text
-- 🧹 Text cleaning and preprocessing
-- 🧠 Skill extraction using NLP
-- ⚡ Fast and lightweight Python implementation
-- 📊 Structured output for further analysis
-
----
-
-## 🛠️ Tech Stack
-- **Programming Language:** Python
-- **Libraries:** NLP-based text processing
-- **Tools:** Git, GitHub
-
----
-
-## 📁 Project Structure
-AI-Resume-Screener/
+📁 Project Structure:
+AI-RESUME-SCREENER/
 │
 ├── app/
-│ ├── resume_parser.py
-│ ├── skill_extractor.py
-│ └── text_cleaner.py
+│   ├── resume_parser.py     # Core logic for text + skill extraction
 │
-├── data/
-│ └── skills.txt
+├── Samples/
+│   └── Sample_resume.pdf    # Sample resume for testing
 │
-├── requirements.txt
-├── test_parser.py
-├── README.md
-└── .gitignore
+├── test_parser.py           # Script to run and test the parser
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── .gitignore
 
+🛠️ Tech Stack
+Python 3
+pdfplumber
+python-docx
+re (Regular Expressions)
 
----
+⚙️ Installation & Setup
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/harshmorepy/AI-Resume-Screener.git
+1️⃣ Clone the repository:
+git clone https://github.com/<your-username>/AI-Resume-Screener.git
 cd AI-Resume-Screener
 
-2️⃣ Create virtual environment 
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+2️⃣ Create virtual environment:
+python3 -m venv venv
+source venv/bin/activate
 
-3️⃣ Install dependencies
+3️⃣ Install dependencies:
 pip install -r requirements.txt
 
-▶️ How to Run
-python test_parser.py
+▶️ How to Run the Project
+1.Place a resume inside the Samples/ folder
+  (A sample PDF is already provided)
+2.Run the test script:
+  python3 test_parser.py
+
+✅ Sample Output:
+===== EXTRACTED SKILLS =====
+- python
+- java
+- git
+- github
+- django
+- flask
+- mysql
+- mongodb
+- aws
 
 📌 Use Case
-HR resume shortlisting
-ATS (Applicant Tracking System) preprocessing
-Skill gap analysis
-AI-powered hiring automation
-📈 Future Improvements
-Resume ranking using ML models
-Web interface (Flask/Streamlit)
-Support for multiple resume formats
-Integration with job descriptions
+This project can be used as:
+A base for ATS (Applicant Tracking Systems)
+Resume shortlisting tools
+HR automation systems
+NLP/ML resume ranking systems (future scope)
+
+🔮 Future Improvements
+Add NLP-based skill extraction using spaCy
+Resume–Job Description matching
+Skill scoring & ranking
+Web interface using Flask or Django
+CSV/JSON export of extracted data
+
 👨‍💻 Author
 Harsh More
-B.Tech CSE Student | Python | AI | DevOps
-📍 India
+🎓 B.Tech Student
+🐍 Python Enthusiast
+💡 Interested in AI, Automation & Backend Development
 
-🔗 GitHub: https://github.com/harshmorepy
-
-
----
-
-## 🔹 Step 3: Save, Commit & Push
-```bash
-git add README.md
-git commit -m "Upgrade README with project overview and usage"
-git push
+⭐ If you like this project
+Give it a ⭐ on GitHub — it motivates me to build more!
