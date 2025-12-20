@@ -1,6 +1,13 @@
-🧠 AI Resume Screener (Python)
+🧠AI Resume Screener – Python-Based ATS Skill Extraction Tool
+
 An AI-powered resume screening tool built using Python that extracts technical skills from resumes (PDF/DOCX) to help automate the initial resume shortlisting process.
 This project demonstrates text extraction, cleaning, and keyword-based skill matching, making it suitable for ATS-style screening systems.
+
+## 🎯 Why This Project?
+
+Recruiters receive hundreds of resumes for a single role. 
+This project simulates an ATS-style resume screening system that automatically extracts technical skills from resumes, helping speed up the shortlisting process.
+
 
 🚀 Features:
 📄 Supports PDF resumes
@@ -64,6 +71,10 @@ pip install -r requirements.txt
 - mysql
 - mongodb
 - aws
+
+## 📄 Note
+The sample resume included in this repository is for demo purposes only and does not contain any personal or sensitive information.
+
 
 📌 Use Case
 This project can be used as:
