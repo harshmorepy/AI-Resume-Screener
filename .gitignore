@@ -21,8 +21,9 @@ env/
 # Logs
 *.log
 
-# Documents
 *.pdf
+# Ignore personal resume
+!Samples/Sample_resume.pdf
 
 
 
