@@ -1,6 +1,6 @@
 from app.resume_parser import extract_text, load_skills, extract_skills
 
-RESUME_PATH = "/Users/harshmore/Desktop/AI-Resume-Screener/data/Sample-resume.pdf"
+RESUME_PATH = "/Users/harshmore/Desktop/AI-Resume-Screener/Samples/Sample_resume.pdf"
 
 def main():
     print("🔍 Reading resume...")
